@@ -1,0 +1,158 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1,h2, h3, h4, h5, h6{
+    font-family: "Arial Bold", Arial, Helvetica, sans-serif;
+}
+
+
+.menu a{
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.menu a:hover{
+    color: #000;
+}
+.menu a:hover{
+    border-bottom: 2px solid #000;
+    padding-bottom: 2px;
+    
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after {
+    border-color: #000 transparent transparent;
+}
+
+.dropdown.menu .is-active > a {
+    background: transparent;
+    color: #000; }
+
+#bobs-logo{
+   
+    padding: 15px;
+}
+
+
+#bobs-logo-footer{
+    max-height: 50px;
+}
+
+#fb-logo{
+    color: #e9bf1f;
+}
+.fb-column{
+    text-align: center;
+
+}
+
+#phone-block{
+    position: relative;
+    
+    
+}
+#phone-number{
+    color: #000;
+    font-size: 150%;
+    margin-left: 10px;
+}
+
+footer{
+    margin-top: 20px;
+
+}
+
+#home-hero{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    
+}
+
+.row{
+    max-width: 100%;
+}
+
+.brand{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    max-height: 250px;
+   
+}
+
+.brand-info{
+    position: relative;
+    height: 300px;
+    max-height: 100%;
+ 
+   
+}
+
+.brand-container{
+    position: absolute;
+    bottom: 0;
+    
+}
+
+
+
+.page-title{
+    color: #fff;
+    text-align: center;
+    background-color: #44413f;
+}
+
+@media (max-width: 650px) {
+    .brand-info{
+        position: relative;
+        height: 125px;
+        max-height: 100%;
+     
+       
+    }
+}
+
+.main-row{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.alt-row{
+    color: white;
+    background-color: #44413f;
+}
+.main-row h3{
+    padding-top: 50px;
+    padding-left: 55px;
+}
+
+.main-row p, .main-row h5{
+    padding-left: 55px;
+}
+.main-row a{
+    color: #fff;
+}
+
+
+.main-row a:hover{
+    color: #7f7f7f;
+}
+
+
+#contact a{
+    color: #000;
+}
+
+#contact a:hover{
+    color: #7f7f7f;
+}
+
+
+#sticky-button {
+    position: fixed;
+    right: 20px;
+    bottom: 20px; 
+    
+}
+
+#sticky-button a{
+    color: #e9bf1f;
+}
